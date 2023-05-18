@@ -72,7 +72,7 @@ In Active Directory Users and Computers (ADUC), I created an Organizational Unit
 <img src="https://imgur.com/ul09BtV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+From the Azure Portal, I set Client-1’s DNS settings to DC-1’s Private IP address.
 </p>
 <br />
 
@@ -80,7 +80,7 @@ In Active Directory Users and Computers (ADUC), I created an Organizational Unit
 <img src="https://imgur.com/2cDHewh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+I logged in to Client-1 as the original local admin (labuser) and joined it to the domain.
 </p>
 <br />
 
@@ -88,7 +88,7 @@ In Active Directory Users and Computers (ADUC), I created an Organizational Unit
 <img src="https://imgur.com/KVXR27v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+I verified that Client-1 showed up in ADUC inside the "Computers" file on the root of the domain. I then created a new OU named "_CLIENTS" and dragged Client-1 into there.
 </p>
 <br />
 
@@ -96,7 +96,7 @@ In Active Directory Users and Computers (ADUC), I created an Organizational Unit
 <img src="https://imgur.com/x09Iv6Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Here, I allowed "domain users" access to remote desktop so that I could log into Client-1 as a normal, non-administrative user.
 </p>
 <br />
 
@@ -104,7 +104,7 @@ In Active Directory Users and Computers (ADUC), I created an Organizational Unit
 <img src="https://imgur.com/BdhQvtz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+I created a new file in PowerShell_ISE and pasted the contents of a script into it. The script makes a variable amount (can be changed) of user accounts with random vowels and consonants. The default password is "Password1" (can be changed). I ran and used this script in order to see if Client-1 could be logged into by a normal, non-administrative account.
 </p>
 <br />
 
@@ -112,7 +112,7 @@ In Active Directory Users and Computers (ADUC), I created an Organizational Unit
 <img src="https://imgur.com/PiJWXTQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+In ADUC, I observed the accounts in the "_EMPLOYEES" OU.
 </p>
 <br />
 
@@ -120,7 +120,7 @@ In Active Directory Users and Computers (ADUC), I created an Organizational Unit
 <img src="https://imgur.com/A5ReKK3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+I attempted to log into Client-1 with one of the accounts.
 </p>
 <br />
 
@@ -128,6 +128,6 @@ In Active Directory Users and Computers (ADUC), I created an Organizational Unit
 <img src="https://imgur.com/XsiHDNC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+I went into cmd prompt just to verify if I was logged into as the non-admin account and if I was in the Client-1 VM.
 </p>
 <br />
