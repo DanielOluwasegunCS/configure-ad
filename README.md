@@ -93,7 +93,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <br />
 
 <p>
-<img src="https://imgur.com/BdhQvtz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/BdhQvtz.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
