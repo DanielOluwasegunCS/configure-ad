@@ -32,7 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://imgur.com/tD2vkbm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I created a "Domain Controller-1" (DC-1) Windows Server 2022 virtual machine (VM) in Microsoft Azure. I also set the DC's Network Interface Card (NIC) private IP address to be static.
+I created a Windows Server 2022 virtual machine (VM) in Microsoft Azure and called it "DC-1". I also set DC-1's Network Interface Card (NIC) private IP address to be static.
 </p>
 <br />
 
@@ -40,7 +40,7 @@ I created a "Domain Controller-1" (DC-1) Windows Server 2022 virtual machine (VM
 <img src="https://imgur.com/H8x7edQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I created a "Client-1" Windows 10 VM. I used the same resource group and virtual network as DC-1's.
+I created a Windows 10 VM and called it "Client-1". I used the same resource group and virtual network as DC-1's.
 </p>
 <br />
 
@@ -48,7 +48,7 @@ I created a "Client-1" Windows 10 VM. I used the same resource group and virtual
 <img src="https://imgur.com/4WASrUq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+I am logged in to DC-1 and I installed Active Directory (AD) Domain Services.
 </p>
 <br />
 
@@ -56,7 +56,7 @@ I created a "Client-1" Windows 10 VM. I used the same resource group and virtual
 <img src="https://imgur.com/9oH7ez1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+I promoted AD to a Domain Controller (DC) and setup a new forest as "danielO.com."
 </p>
 <br />
 
@@ -64,7 +64,7 @@ I created a "Client-1" Windows 10 VM. I used the same resource group and virtual
 <img src="https://imgur.com/UpKiuHI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+In Active Directory Users and Computers (ADUC), I created an Organizational Unit (OU) called "_EMPLOYEES" and an OU called "_ADMINS." I created a new employee named "Daniel Oluwasegun" with the username of "dan.admin." I added dan.admin to the "Domain Admins" Security Group. I then logged out of the Remote Desktop Connection to DC-1 and logged back in as "danielO.com\dan.admin."
 </p>
 <br />
 
