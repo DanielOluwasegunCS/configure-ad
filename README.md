@@ -32,7 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://imgur.com/tD2vkbm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+I created a "Domain Controller-1" (DC-1) Windows Server 2022 virtual machine (VM) in Microsoft Azure. I also set the DC's Network Interface Card (NIC) private IP address to be static.
 </p>
 <br />
 
@@ -40,7 +40,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/H8x7edQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+I created a "Client-1" Windows 10 VM. I used the same resource group and virtual network as DC-1's.
 </p>
 <br />
 
@@ -48,7 +48,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/4WASrUq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -56,7 +56,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/9oH7ez1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -64,7 +64,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/UpKiuHI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -72,7 +72,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/ul09BtV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -80,7 +80,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/2cDHewh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -88,7 +88,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/KVXR27v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -96,7 +96,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/x09Iv6Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -104,7 +104,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/BdhQvtz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -112,7 +112,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/PiJWXTQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -120,7 +120,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/A5ReKK3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
 
@@ -128,6 +128,6 @@ It is important to take care of the patient, to be followed by the patient, but 
 <img src="https://imgur.com/XsiHDNC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+
 </p>
 <br />
