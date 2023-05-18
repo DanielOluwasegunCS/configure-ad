@@ -48,7 +48,7 @@ I created a Windows 10 VM and called it "Client-1". I used the same resource gro
 <img src="https://imgur.com/4WASrUq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I am logged in to DC-1 and I installed Active Directory (AD) Domain Services.
+I am logged into DC-1 and I installed Active Directory (AD) Domain Services.
 </p>
 <br />
 
